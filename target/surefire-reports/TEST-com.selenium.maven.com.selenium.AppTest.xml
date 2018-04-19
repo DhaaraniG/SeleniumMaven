@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="9" failures="2" name="com.selenium.maven.com.selenium.AppTest" time="243.993" errors="0" skipped="0">
+<testsuite tests="9" failures="0" name="com.selenium.maven.com.selenium.AppTest" time="274.032" errors="0" skipped="0">
   <properties>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="JOB_NAME" value="Maven-Sample"/>
@@ -30,8 +30,8 @@
     <property name="PROMPT" value="$P$G"/>
     <property name="user.language" value="en"/>
     <property name="JOB_BASE_NAME" value="Maven-Sample"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/Maven-Sample/2/display/redirect?page=changes"/>
-    <property name="BUILD_DISPLAY_NAME" value="#2"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/Maven-Sample/7/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#7"/>
     <property name="OneDrive" value="C:\Users\Mohan\OneDrive"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\bin"/>
     <property name="LOCALAPPDATA" value="C:\Users\Mohan\AppData\Local"/>
@@ -42,7 +42,7 @@
     <property name="sun.arch.data.model" value="64"/>
     <property name="NODE_NAME" value="master"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\endorsed"/>
-    <property name="BUILD_ID" value="2"/>
+    <property name="BUILD_ID" value="7"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -57,7 +57,7 @@
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_151\jre"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="os.version" value="6.1"/>
-    <property name="RUN_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/Maven-Sample/2/display/redirect"/>
+    <property name="RUN_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/Maven-Sample/7/display/redirect"/>
     <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
     <property name="TMP" value="C:\Users\Mohan\AppData\Local\Temp"/>
     <property name="path.separator" value=";"/>
@@ -79,7 +79,7 @@
     <property name="POM_GROUPID" value="com.selenium.maven"/>
     <property name="user.home" value="C:\Users\Mohan"/>
     <property name="PUBLIC" value="C:\Users\Public"/>
-    <property name="BUILD_TAG" value="jenkins-Maven-Sample-2"/>
+    <property name="BUILD_TAG" value="jenkins-Maven-Sample-7"/>
     <property name="JENKINS_SERVER_COOKIE" value="02d142513ff40f74"/>
     <property name="ProgramData" value="C:\ProgramData"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -93,7 +93,7 @@
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="maven.home" value="D:\apache-maven-3.5.2"/>
     <property name="java.class.path" value="C:\Users\Mohan\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.12-alpha-1.jar;D:\apache-maven-3.5.2\boot\plexus-classworlds-2.5.2.jar;D:\apache-maven-3.5.2/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main D:\apache-maven-3.5.2 C:\Users\Mohan\.jenkins\war\WEB-INF\lib\remoting-3.19.jar C:\Users\Mohan\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12-alpha-1.jar C:\Users\Mohan\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12-alpha-1.jar 52978"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main D:\apache-maven-3.5.2 C:\Users\Mohan\.jenkins\war\WEB-INF\lib\remoting-3.19.jar C:\Users\Mohan\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12-alpha-1.jar C:\Users\Mohan\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12-alpha-1.jar 64975"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
     <property name="PATH+JDK" value="C:\Program Files\Java\jdk1.8.0_151/bin"/>
@@ -121,7 +121,7 @@
 "/>
     <property name="MAVEN_HOME" value="D:\apache-maven-3.5.2"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="2"/>
+    <property name="BUILD_NUMBER" value="7"/>
     <property name="PROCESSOR_REVISION" value="2a07"/>
     <property name="ProgramW6432" value="C:\Program Files"/>
     <property name="windir" value="C:\windows"/>
@@ -133,129 +133,13 @@
     <property name="java.specification.version" value="1.8"/>
     <property name="PSModulePath" value="C:\windows\system32\WindowsPowerShell\v1.0\Modules\"/>
   </properties>
-  <testcase classname="com.selenium.maven.com.selenium.AppTest" name="checkRememberMe on null(com.selenium.maven.com.selenium.AppTest)" time="27.808"/>
-  <testcase classname="com.selenium.maven.com.selenium.AppTest" name="createAccountT10 on null(com.selenium.maven.com.selenium.AppTest)" time="38.933"/>
-  <testcase classname="com.selenium.maven.com.selenium.AppTest" name="createNewViewT11 on null(com.selenium.maven.com.selenium.AppTest)" time="51.928">
-    <failure message="Unable to locate element: .//*[contains(@id,&apos;listSelect&apos;)]
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
-System info: host: &apos;MOHAN-PC&apos;, ip: &apos;10.0.0.237&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_151&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 54.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:processID: 5528, moz:profile: C:\Users\Mohan\AppData\Loca..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 0fdf0421-cfeb-4a39-b390-c53f7fde1e1f
-*** Element info: {Using=xpath, value=.//*[contains(@id,&apos;listSelect&apos;)]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: .//*[contains(@id,&apos;listSelect&apos;)]
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
-System info: host: &apos;MOHAN-PC&apos;, ip: &apos;10.0.0.237&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_151&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 54.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:processID: 5528, moz:profile: C:\Users\Mohan\AppData\Loca..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 0fdf0421-cfeb-4a39-b390-c53f7fde1e1f
-*** Element info: {Using=xpath, value=.//*[contains(@id,&apos;listSelect&apos;)]}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
-	at com.selenium.maven.com.selenium.AppTest.createNewViewT11(AppTest.java:62)
-</failure>
-    <system-out>Success: gnana@gmail.com is entered in Username
-Success: Almond@123 is entered in Password
-Sucess: Remember Me Check Box is selected
-Sucess: Login button is clicked
-Sucess: Accounts is clicked
-Sucess: create new view is clicked
-Sucess: Close is clicked
-Sucess: create new view is clicked
-Success: sampleView1 is entered in view Name
-Success: sampleView1 is entered in Unique Name
-Sucess: Save Button is clicked
-</system-out>
-    <system-err>1524094526722	geckodriver	INFO	geckodriver 0.19.1
-1524094526738	geckodriver	INFO	Listening on 127.0.0.1:6641
-1524094527078	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files\\Mozilla Firefox\\firefox.exe&quot; &quot;-marionette&quot; &quot;-profile&quot; &quot;C:\\Users\\Mohan\\AppData\\Local\\Temp\\rust_mozprofile.p65jHEC9Ej2K&quot;
-[GFX1-]: Mismatched driver versions between the registry 8.15.10.2266 and DLL(s) 9.18.13.2702,  reported.
-1524094532133	Marionette	INFO	Listening on port 53268
-1524094532302	Marionette	WARN	TLS certificate errors will be ignored for this session
-Apr 18, 2018 4:35:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-1041211059, line 69: unreachable code after return statement
-JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-1041211059, line 69: unreachable code after return statement
-</system-err>
-  </testcase>
-  <testcase classname="com.selenium.maven.com.selenium.AppTest" name="loginToSDFC on null(com.selenium.maven.com.selenium.AppTest)" time="18.578"/>
-  <testcase classname="com.selenium.maven.com.selenium.AppTest" name="logoutUsermenuT09 on null(com.selenium.maven.com.selenium.AppTest)" time="32.921"/>
-  <testcase classname="com.selenium.maven.com.selenium.AppTest" name="navigateToSDFC on null(com.selenium.maven.com.selenium.AppTest)" time="14.506"/>
-  <testcase classname="com.selenium.maven.com.selenium.AppTest" name="testCase6 on null(com.selenium.maven.com.selenium.AppTest)" time="24.312">
-    <failure message="The element reference of &lt;span id=&quot;tailBreadcrumbNode&quot; class=&quot;tailNode cxTailNode&quot;&gt; stale: either the element is no longer attached to the DOM or the page has been refreshed
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
-System info: host: &apos;MOHAN-PC&apos;, ip: &apos;10.0.0.237&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_151&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 54.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:processID: 7184, moz:profile: C:\Users\Mohan\AppData\Loca..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 272275ba-d8b7-4e10-9155-34330dd65877" type="org.openqa.selenium.StaleElementReferenceException">org.openqa.selenium.StaleElementReferenceException: The element reference of &lt;span id=&quot;tailBreadcrumbNode&quot; class=&quot;tailNode cxTailNode&quot;&gt; stale: either the element is no longer attached to the DOM or the page has been refreshed
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
-System info: host: &apos;MOHAN-PC&apos;, ip: &apos;10.0.0.237&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_151&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 54.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:processID: 7184, moz:profile: C:\Users\Mohan\AppData\Loca..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 272275ba-d8b7-4e10-9155-34330dd65877
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
-	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:160)
-	at com.utitlity.DriverUtility.validateText(DriverUtility.java:121)
-	at com.selenium.maven.com.selenium.AppTest.testCase6(AppTest.java:193)
-</failure>
-    <system-out>Success: gnana@gmail.com is entered in Username
-Success: Almond@123 is entered in Password
-Sucess: Remember Me Check Box is selected
-Sucess: Login button is clicked
-Sucess: wait for User Icon  to be visible
-Sucess: User Icon is clicked
-Sucess: Profile Link is clicked
-Success: wait for Arrow to be clickable
-Sucess: Arrow is clicked
-Sucess: Edit Profile Link is clicked
-Sucess: wait for Iframe to be visible
-Success: G is entered in Lastname
-Sucess: Save All is clicked
-Sucess: wait for User Name to be visible
-</system-out>
-    <system-err>1524094644459	geckodriver	INFO	geckodriver 0.19.1
-1524094644467	geckodriver	INFO	Listening on 127.0.0.1:44649
-1524094644979	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files\\Mozilla Firefox\\firefox.exe&quot; &quot;-marionette&quot; &quot;-profile&quot; &quot;C:\\Users\\Mohan\\AppData\\Local\\Temp\\rust_mozprofile.TTOacUrDG4k6&quot;
-[GFX1-]: Mismatched driver versions between the registry 8.15.10.2266 and DLL(s) 9.18.13.2702,  reported.
-1524094649465	Marionette	INFO	Listening on port 53780
-1524094650218	Marionette	WARN	TLS certificate errors will be ignored for this session
-Apr 18, 2018 4:37:30 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-JavaScript error: https://appexchange.salesforce.com/setupModule, line 36: ReferenceError: $ is not defined
-JavaScript error: https://na50.salesforce.com/jslibrary/1510694034000/sfdc/UserProfile.js, line 17: TypeError: b.target.className.contains is not a function
-JavaScript error: https://na50.salesforce.com/jslibrary/1510694034000/sfdc/UserProfile.js, line 17: TypeError: b.target.className.contains is not a function
-JavaScript error: https://na50.salesforce.com/jslibrary/1510694034000/sfdc/UserProfile.js, line 17: TypeError: b.target.className.contains is not a function
-JavaScript error: https://na50.salesforce.com/jslibrary/1510694034000/sfdc/UserProfile.js, line 17: TypeError: b.target.className.contains is not a function
-JavaScript error: https://na50.salesforce.com/jslibrary/1510694034000/sfdc/UserProfile.js, line 17: TypeError: b.target.className.contains is not a function
-Apr 18, 2018 4:37:48 PM org.openqa.selenium.remote.ErrorCodes toStatus
-INFO: HTTP Status: &apos;400&apos; -&gt; incorrect JSON status mapping for &apos;stale element reference&apos; (404 expected)
-</system-err>
-  </testcase>
-  <testcase classname="com.selenium.maven.com.selenium.AppTest" name="userMenuDropDown on null(com.selenium.maven.com.selenium.AppTest)" time="21.1"/>
-  <testcase classname="com.selenium.maven.com.selenium.AppTest" name="validateLoginErrorMessage on null(com.selenium.maven.com.selenium.AppTest)" time="13.907"/>
+  <testcase classname="com.selenium.maven.com.selenium.AppTest" name="checkRememberMe on null(com.selenium.maven.com.selenium.AppTest)" time="19.071"/>
+  <testcase classname="com.selenium.maven.com.selenium.AppTest" name="createAccountT10 on null(com.selenium.maven.com.selenium.AppTest)" time="37.819"/>
+  <testcase classname="com.selenium.maven.com.selenium.AppTest" name="createNewViewT11 on null(com.selenium.maven.com.selenium.AppTest)" time="33.272"/>
+  <testcase classname="com.selenium.maven.com.selenium.AppTest" name="loginToSDFC on null(com.selenium.maven.com.selenium.AppTest)" time="16.632"/>
+  <testcase classname="com.selenium.maven.com.selenium.AppTest" name="logoutUsermenuT09 on null(com.selenium.maven.com.selenium.AppTest)" time="31.17"/>
+  <testcase classname="com.selenium.maven.com.selenium.AppTest" name="navigateToSDFC on null(com.selenium.maven.com.selenium.AppTest)" time="44.472"/>
+  <testcase classname="com.selenium.maven.com.selenium.AppTest" name="testCase6 on null(com.selenium.maven.com.selenium.AppTest)" time="60.54"/>
+  <testcase classname="com.selenium.maven.com.selenium.AppTest" name="userMenuDropDown on null(com.selenium.maven.com.selenium.AppTest)" time="18.611"/>
+  <testcase classname="com.selenium.maven.com.selenium.AppTest" name="validateLoginErrorMessage on null(com.selenium.maven.com.selenium.AppTest)" time="12.445"/>
 </testsuite>

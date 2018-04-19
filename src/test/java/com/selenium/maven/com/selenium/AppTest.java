@@ -51,10 +51,10 @@ public class AppTest
 		DriverUtility.clickEvent(createview, "create new view");
 		DriverUtility.checkAppTitle(webdriver, "Create New View", "Create new view");
 		WebElement viewName=webdriver.findElement(By.xpath(".//*[@id='fname']"));
-		DriverUtility.enterText(viewName, "sampleView1", "view Name");
+		DriverUtility.enterText(viewName, "sampleView127", "view Name");
 		
 		WebElement uniquename=webdriver.findElement(By.xpath(".//*[@id='devname']"));
-		DriverUtility.enterText(uniquename, "sampleView1", "Unique Name");
+		DriverUtility.enterText(uniquename, "sampleView127", "Unique Name");
 		
 		WebElement save=webdriver.findElement(By.xpath(".//*[@id='editPage']/div[1]/table/tbody/tr/td[2]/input[1]"));
 		DriverUtility.clickEvent(save, "Save Button");
@@ -64,7 +64,7 @@ public class AppTest
 		WebElement selectwe=webdriver.findElement(By.xpath(".//*[@id='bodyTable']//select[contains(@id,'listSelect')]"));
 		DriverUtility.checkAppTitle(webdriver, "Accounts", "Accounts");
 		Select select=new Select(selectwe);
-		Assert.assertSame(select.getFirstSelectedOption().getText(), "sampleView");
+		Assert.assertEquals("sampleView127",select.getFirstSelectedOption().getText());
 		
 		Thread.sleep(5000);
 		webdriver.close();
